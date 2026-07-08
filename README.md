@@ -1,50 +1,44 @@
 # 🛒 MarketBasketAnalytics
 
-Técnica de minería de datos que busca descubrir patrones de compra entre productos que suelen adquirirse juntos. Este repositorio presenta un enfoque práctico de análisis de canasta de mercado (*Market Basket Analysis*) usando Python y Power BI, con el objetivo de visualizar asociaciones de productos y generar insights accionables para negocios.
+Enfoque práctico de **Market Basket Analysis** (análisis de canasta de mercado) usando Python y Power BI, para descubrir qué productos suelen comprarse juntos y generar insights accionables para el negocio.
 
----
-# 🧠 Descargar DASHBOARDS COMPLETOS
-https://drive.google.com/file/d/1Jy8HMS6VYw-TKrHDtAJaElBVzk63VcoF/view?usp=sharing
+## Objetivo
 
-## 📈 Objetivo del Proyecto
+Descubrir relaciones entre productos a partir de datos de transacciones mediante reglas de asociación, permitiendo:
 
-Descubrir relaciones entre productos que suelen comprarse juntos a partir de datos de transacciones. Utilizando reglas de asociación y visualizaciones estratégicas, este análisis permite:
-
-- Optimizar estrategias de venta cruzada (*cross-selling*)
+- Optimizar estrategias de venta cruzada (cross-selling)
 - Mejorar la disposición de productos
-- Diseñar promociones inteligentes basadas en comportamiento de compra
+- Diseñar promociones basadas en comportamiento de compra real
 
----
+## Resultados clave
 
-## 🧰 Tecnologías Utilizadas
+- Análisis de soporte, confianza y lift entre combinaciones de productos.
+- Visualización de asociaciones con mapas de calor y grafos de relaciones.
+- Recomendaciones prácticas para estrategias comerciales.
 
-- **Python**: Limpieza de datos, generación de reglas de asociación (Apriori, MLxtend)
-- **Power BI**: Visualización de asociaciones y segmentación de clientes
-- **Base de Datos**: Datos simulados de tickets y productos
-- **Jupyter Notebook**: Documentación y análisis reproducible
+📊 [Descargar dashboards completos](https://drive.google.com/file/d/1Jy8HMS6VYw-TKrHDtAJaElBVzk63VcoF/view?usp=sharing)
 
+## Contenido
 
----
+- `Python_Scripts/market_basket_analysis.ipynb` — limpieza de datos y generación de reglas de asociación (Apriori, MLxtend).
+- Dashboards en Power BI (enlace arriba).
 
-## 📌 Resultados Clave
+## Tecnologías
 
-- Análisis de soporte, confianza y lift entre combinaciones de productos
-- Visualización de productos más asociados con mapas de calor y grafos de relaciones
-- Recomendaciones prácticas para estrategias comerciales
+Python (pandas, MLxtend/Apriori) · Power BI · Jupyter Notebook
 
----
+## Cómo ejecutar
 
-## 🚀 Cómo ejecutar
+```bash
+pip install pandas mlxtend jupyter
+jupyter notebook Python_Scripts/market_basket_analysis.ipynb
+```
 
-1. Abrí el notebook en `Python_Scripts/market_basket_analysis.ipynb`
-2. Agregar la base de datos contenida dentro del repositorio
-3. Ejecutar todas las celdas del notebook
+1. Abrí el notebook.
+2. Agregá la base de datos de transacciones incluida en el repositorio.
+3. Ejecutá todas las celdas.
 
----
+## Autor
 
-## 👤 Autor
-
-**Horacio Laphitz** –  Data Analyst | Power BI Developer | Python Enthusiast  
-
-
-
+Horacio Laphitz — Data Analyst | Power BI Developer | Python Enthusiast
+[GitHub](https://github.com/HoracioLaphitz) · [LinkedIn](https://www.linkedin.com/in/horacio-laphitz)
