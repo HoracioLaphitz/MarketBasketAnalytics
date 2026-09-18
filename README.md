@@ -1,5 +1,7 @@
 # 🛒 MarketBasketAnalytics
 
+## Descripción
+
 Enfoque práctico de **Market Basket Analysis** (análisis de canasta de mercado) usando Python y Power BI, para descubrir qué productos suelen comprarse juntos y generar insights accionables para el negocio.
 
 ## Objetivo
@@ -22,6 +24,16 @@ Descubrir relaciones entre productos a partir de datos de transacciones mediante
 
 - `Python_Scripts/market_basket_analysis.ipynb` — limpieza de datos y generación de reglas de asociación (Apriori, MLxtend).
 - Dashboards en Power BI (enlace arriba).
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/MarketBasketAnalytics)
+
+```mermaid
+flowchart LR
+  A["DASHVentas.jpg + DashMarketing.jpg + Documento de Requerimientos Funcionales de Negocio.docx"] --> B["Procesamiento de MarketBasketAnalytics"]
+  B --> C["Resultados del proyecto"]
+```
 
 ## Tecnologías
 
