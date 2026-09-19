@@ -27,18 +27,5 @@ Descubrir relaciones entre productos a partir de datos de transacciones mediante
 
 Python (pandas, MLxtend/Apriori) · Power BI · Jupyter Notebook
 
-## Cómo ejecutar
-
-```bash
-pip install pandas mlxtend jupyter
-jupyter notebook Python_Scripts/market_basket_analysis.ipynb
-```
-
-1. Abrí el notebook.
-2. Agregá la base de datos de transacciones incluida en el repositorio.
-3. Ejecutá todas las celdas.
-
-## Autor
-
 Horacio Laphitz — Data Analyst | Power BI Developer | Python Enthusiast
 [GitHub](https://github.com/HoracioLaphitz) · [LinkedIn](https://www.linkedin.com/in/horacio-laphitz)
